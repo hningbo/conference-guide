@@ -1,0 +1,25 @@
+.block > img {
+  height: 200px;
+  width: 100%;
+}
+
+.block > input {
+  width: 30%;
+  display: inline;
+  vertical-align: top
+}
+
+
+.block > input {
+  width: 70%;
+  display: inline;
+  vertical-align: top
+}
+
+.block > h4{
+  height: 80px;
+}
+
+.block {
+  height: 350px;
+}

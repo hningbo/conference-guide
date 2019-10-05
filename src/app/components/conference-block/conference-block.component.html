@@ -1,0 +1,11 @@
+<div class="block">
+
+  <img (click)="jumpToConferencePage(conferenceUrl, year.value)" class="img-thumbnail img-fluid" src="{{conferenceSymbolAddress}}">
+
+  <h4>{{conferenceName}}</h4>
+
+  <input #year class="form-control" type="number" value="2019"/>
+  <button (click)="jumpToConferencePage(conferenceUrl, year.value)" class="btn btn-primary"
+          type="button">Go
+  </button>
+</div>
